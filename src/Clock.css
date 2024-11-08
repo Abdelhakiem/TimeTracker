@@ -1,0 +1,35 @@
+/* src/Clock.css */
+.clock-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333333;
+    color: #ffffff;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .clock-time {
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .clock-am-pm {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 10px; /* Positions AM/PM beside the time */
+  }
+  
+  @media (max-width: 600px) {
+    .clock-time {
+      font-size: 32px;
+    }
+  
+    .clock-am-pm {
+      font-size: 14px;
+    }
+  }
+  
